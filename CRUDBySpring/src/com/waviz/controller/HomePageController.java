@@ -30,6 +30,7 @@ public class HomePageController {
 	@RequestMapping("/register")
 	public ModelAndView registerUser(@ModelAttribute User user)
 	{
+		System.out.println("...............");
 	List<String> genderList=new ArrayList<String>();
 	genderList.add("male");
 	genderList.add("female");
